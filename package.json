@@ -1,0 +1,47 @@
+{
+  "name": "@mak12/react-native-background-geolocation",
+  "version": "0.7.7",
+  "description": "Optimized background location tracking",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "link": "@mak12/react-native-background-geolocation/scripts/postlink.js",
+    "unlink": "@mak12/react-native-background-geolocation/scripts/postunlink.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mak12/react-native-background-geolocation.git"
+  },
+  "keywords": [
+    "gps",
+    "geolocation",
+    "position",
+    "location",
+    "tracking",
+    "background",
+    "react",
+    "react-native",
+    "react-component",
+    "android",
+    "ios"
+  ],
+  "author": "Marian Hello",
+  "maintainers": [
+    "Darron Park <darron1217@gmail.com>",
+    "Hariks <hariks@zoho.com>",
+    "Malik Kawee <malik.kawee4@gmail.com>"
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mak12/react-native-background-geolocation/issues"
+  },
+  "homepage": "https://github.com/mak12/react-native-background-geolocation#readme",
+  "dependencies": {
+    "@mak12/react-native-background-geolocation": "^0.7.5",
+    "plist": "^3.0.1"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.71.0"
+  }
+}
