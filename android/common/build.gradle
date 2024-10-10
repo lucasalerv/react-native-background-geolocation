@@ -18,8 +18,8 @@ def projDependencies = [
     [configuration: "implementation", dependency: androidLibs.playServicesLocation],
     [configuration: "implementation", dependency: androidLibs.supportCompat],
     [configuration: "implementation", dependency: androidLibs.appcompat],
-    [configuration: "implementation", dependency: libs.permissions,
-        options: { exclude group: 'com.android.support', module: 'appcompat-v7'}],
+    // [configuration: "implementation", dependency: libs.permissions,
+        // options: { exclude group: 'com.android.support', module: 'appcompat-v7'}],
     [configuration: "implementation", dependency: libs.logback],
     [configuration: "implementation", dependency: libs.slf4j],
     [configuration: "implementation", dependency: libs.promise],
@@ -108,4 +108,5 @@ dependencies {
 
     implementation 'com.facebook.react:react-native:0.71.0-rc.0'
     implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'io.github.nishkarsh:android-permissions:0.1.7'
 }
